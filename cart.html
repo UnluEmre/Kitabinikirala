@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <a href="index.html">
+            <div><img src="img/logov2.png" alt="logo"></div>
+        </a>
+        <input type="text" placeholder="Kategori, Yazar, Kitap Ara...">
+        <a href="#"><i class="fas fa-star wishlist"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        <a class="btn" href="#">Üye Ol</a>
+        <a class="btn bg-mor" href="#">Giriş Yap</a>
+    </div>
+    <div class="mycart">
+        <table>
+            <tr class="">
+                <td colspan="6" class="baslik ">Sepetime Ekli Olan Ürünler</td>
+            </tr>
+            <tr class="mb-5">
+                <th class="sira_no">Sıra No</th>
+                <th class="kitap_resmi">Kitap</th>
+                <th class="urun_adi">Ürün Adı</th>
+                <th class="urun_miktari">Miktar</th>
+                <th class="urun_fiyatı">Fiyat</th>
+                <th class="urunu_sil">Sepetten Sil</th>
+            </tr>
+            <tr>
+                <td class="sira_no2">1</td>
+                <td class="kitap_resmi2"><img src="./img/Kitap/nutuk.jpg" alt="nutuk"></td>
+                <td class="urun_adi2">Nutuk</td>
+                <td class="urun_miktari2">1</td>
+                <td class="urun_fiyatı2">55 TL</td>
+                <td class="urunu_sil2"><button type="button" class="btn btn-danger">Sepetten Sil</button>
+                </td>
+            </tr>
+        </table>
+        <div class="d-flex">
+            <button type="button" class="btn btn-secondary btn-lg btn-block mt-5">Toplam Tutar: </button>
+            <button type="button" class="btn btn-outline-success odeme mt-5">Ödeme Yap</button>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
